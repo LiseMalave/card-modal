@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --back: #ffffff;
+  --back--body: #d8d4d4da;
+  --back--primary: #203774;
+  --back--secondary: #486bbd;
+  --letter--secondary: #000000;
+}
+body {
+  background-color: var(--back--body);
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 859px;
+  height: 928px;
+  background: var(--back);
+  border-radius: 15px;
+}
+
+.title {
+  background: var(--back--primary);
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--back);
+}
+
+.title h2 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+.dates__container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.dates__title {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  gap: 45px;
+  text-align: center;
+}
+.dates__title h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.dates__title svg {
+  margin-top: 25px;
+}
+
+.dates__number p {
+  font-size: small;
+  font-weight: bold;
+}
+
+.dates__item {
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+.item__text {
+  background-color: var(--back--primary);
+  display: flex;
+  padding: 35px 25px;
+  gap: 185px;
+  border-radius: 15px;
+  color: var(--back);
+}
+
+.item__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
